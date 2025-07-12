@@ -1230,11 +1230,150 @@
             }
         }
     </style>
+    <style>
+        @media screen and (min-width: 768px) {
+            .main-wrapper {
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 0 0 20px #0001;
+                border-radius: 18px;
+                background: #fff;
+                padding-left: 32px;
+                padding-right: 32px;
+                text-align: center;
+            }
+            .main-wrapper .elementor-section-wrap,
+            .main-wrapper .elementor-container,
+            .main-wrapper .elementor-section.elementor-section-stretched,
+            .main-wrapper .elementor-section.elementor-section-full_width {
+                max-width: 100% !important;
+                width: 100% !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .main-wrapper img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .main-wrapper h1,
+            .main-wrapper h2,
+            .main-wrapper h3,
+            .main-wrapper h4,
+            .main-wrapper h5,
+            .main-wrapper h6,
+            .main-wrapper p {
+                word-break: break-word;
+                max-width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper,
+          .main-wrapper .elementor-section,
+          .main-wrapper .elementor-container,
+          .main-wrapper .elementor-column,
+          .main-wrapper .elementor-widget-wrap,
+          .main-wrapper .elementor-widget,
+          .main-wrapper .elementor-heading-title,
+          .main-wrapper .elementor-widget-container {
+            text-align: center !important;
+          }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper .elementor-container,
+          .main-wrapper .elementor-widget-wrap,
+          .main-wrapper .elementor-section {
+            justify-content: center !important;
+            align-items: center !important;
+          }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper img {
+            display: block;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+        }
+    </style>
+    <style>
+    @media screen and (min-width: 768px) {
+      .main-wrapper * {
+        text-align: center !important;
+        box-sizing: border-box;
+      }
+      .main-wrapper .elementor-container,
+      .main-wrapper .elementor-widget-wrap,
+      .main-wrapper .elementor-section,
+      .main-wrapper .elementor-row,
+      .main-wrapper .elementor-column {
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      .main-wrapper img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 100% !important;
+        height: auto !important;
+      }
+    }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+          .main-wrapper .elementor-section.elementor-section-stretched {
+            left: 0 !important;
+            right: 0 !important;
+            width: 100% !important;
+          }
+        }
+    </style>
+    <style>
+        @media screen and (min-width: 768px) {
+            /* ... altre regole ... */
+            .elementor-section.elementor-element-96efbdf {
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                flex-direction: column !important;
+                text-align: center !important;
+            }
+            .elementor-section.elementor-element-96efbdf .elementor-widget-wrap,
+            .elementor-section.elementor-element-96efbdf .elementor-widget-container,
+            .elementor-section.elementor-element-96efbdf .elementor-button-wrapper {
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                flex-direction: column !important;
+                text-align: center !important;
+            }
+            .elementor-section.elementor-element-96efbdf a.elementor-button {
+                margin-left: auto !important;
+                margin-right: auto !important;
+                display: inline-block !important;
+            }
+        }
+    </style>
 </head>
 
 <body
     class="post-template-default single single-post postid-8213 single-format-standard wp-embed-responsive theme-hello-elementor woocommerce-no-js theme-default elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8213 elementor-page-495">
-
+    <div class="main-wrapper">
     <div data-elementor-type="single-post" data-elementor-id="495"
         class="elementor elementor-495 elementor-location-single post-8213 post type-post status-publish format-standard hentry category-template-base"
         data-elementor-post-type="elementor_library">
@@ -1255,7 +1394,7 @@
                                 class="elementor-container elementor-column-gap-default"="elementor-widget-container">
                                 <div data-elementor-type="wp-post" data-elementor-id="8213"
                                     class="elementor elementor-8213" data-elementor-post-type="post">
-                                    <section style="transform: rotate(180deg); height: 420px;"
+                                    <section id="section-hero" style="transform: rotate(180deg); height: 720px;"
                                         class="elementor-section elementor-top-section elementor-element elementor-element-970eede elementor-section-height-min-height animated-slow elementor-section-full_width elementor-section-items-top elementor-section-height-default elementor-invisible"
                                         data-id="970eede" data-element_type="section"
                                         data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:800,&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
@@ -1372,11 +1511,13 @@
                                                             </h2>
                                                             <!--<p style="font-weight: bold; font-family: Carattere, sans-serif;font-size: 2rem">Santuario Opera<br>di Santa Rita </p>-->
                                                             <br>
-                                                            <a style="color: #5B5B5F; display: flex; align-items: center; justify-content: center; gap: 5px;" 
-                                                               href="https://maps.app.goo.gl/tbtD1evwowKB44Ct7">                                                            
-                                                                <img src="assets/locator1.svg" width="30" height="30">
-                                                                <p style="margin: 0; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; font-size: 15px;">ROCCAPORENA, CASCIA</p>
-                                                            </a>
+                                                            <div style="display: flex; justify-content: center;">
+                                                                <a style="color: #5B5B5F; display: flex; align-items: center; justify-content: center; gap: 5px;" 
+                                                                href="https://maps.app.goo.gl/tbtD1evwowKB44Ct7">                                                            
+                                                                    <img src="assets/locator1.svg" width="30" height="30">
+                                                                    <p style="margin: 0; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; font-size: 15px;">ROCCAPORENA, CASCIA</p>
+                                                                </a>
+                                                            </div>
                                                             <br><br>
                                                         </div>
                                                     </div>
@@ -1387,7 +1528,7 @@
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <p class="elementor-heading-title elementor-size-default">
-                                                                Avvolti dal profumo delle rose e dalla
+                                                                Saremo avvolti dal profumo delle rose e dalla
                                                                 serenità del paesino natale di Santa Rita, punto di
                                                                 partenza del cammino del nostro matrimonio, custodito da
                                                                 Dio.
@@ -1465,45 +1606,6 @@
                                             </div>
                                         </div>
                                     </section>
-
-                                    <section hidden
-                                        class="elementor-section elementor-top-section elementor-element elementor-element-443ddd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="443ddd4" data-element_type="section"
-                                        data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fabd629"
-                                                data-id="fabd629" data-element_type="column"
-                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-918c1e5 elementor-position-left elementor-vertical-align-middle ob-has-background-overlay elementor-widget elementor-widget-image-box"
-                                                        data-id="918c1e5" data-element_type="widget"
-                                                        data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                                                        data-widget_type="image-box.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-image-box-wrapper">
-                                                                <figure class="elementor-image-box-img"><img
-                                                                        loading="lazy" decoding="async" width="118"
-                                                                        height="135"
-                                                                        src="https://rsvp-online.it/wp-content/uploads/2021/03/Risorsa-3@2x.png"
-                                                                        class="attachment-full size-full wp-image-409"
-                                                                        alt="" /></figure>
-                                                                <div class="elementor-image-box-content">
-                                                                    <h3 class="elementor-image-box-title">Regalo o lista
-                                                                        nozze</h3>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e32c6b1"
-                                                data-id="e32c6b1" data-element_type="column"
-                                                data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
                                     <section style="padding-top: 0px; padding-bottom: 0px;"
                                         class="due elementor-section elementor-top-section elementor-element elementor-element-644a458 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="644a458" data-element_type="section"
@@ -1524,9 +1626,10 @@
                                                                 più grande è quello di viaggiare e scoprire nuovi posti.
                                                             </p>-->
                                                             <p class="elementor-heading-title elementor-size-default">
-                                                                A grande richiesta per i parenti, gli amici e i colleghi che non 
-                                                                potranno essere presenti, <b>condivideremo in diretta</b> il nostro grande 
-                                                                giorno per raggiungervi fino all'altra parte del mondo!
+                                                                A grande richiesta per chi non potrà essere presente, essendo una cerimonia intima, 
+                                                                breve e fuori mano, <b>condivideremo in diretta</b> il nostro grande giorno per raggiungervi 
+                                                                fino all'altra parte del mondo!
+
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1550,7 +1653,7 @@
                                                         data-id="385df19" data-element_type="widget"
                                                         data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
                                                         data-widget_type="text-editor.default">
-                                                        <div style="margin-bottom: -46px;"
+                                                        <div style="margin-bottom: -26px; display: flex; justify-content: center;"
                                                             class="elementor-widget-container">
                                                             <a style="color: #5B5B5F; display: flex; align-items: center; justify-content: center; gap: 5px;" 
                                                                href="https://www.twitch.tv/VickySarax7">                                                            
@@ -1615,17 +1718,14 @@
                                                                 più grande è quello di viaggiare e scoprire nuovi posti.
                                                             </p>-->
                                                             <p class="elementor-heading-title elementor-size-default">
-                                                                Sapervi tutti collegati a distanza con trepidazione per festeggiare insieme
-                                                                il nostro nuovo inizio è meraviglioso!
-                                                                Ci sarà sicuramente occasione per continuare a farlo anche di persona.<br />
+                                                                Immaginarvi tutti connessi per il nostro nuovo inizio è meraviglioso!
+                                                                Il tuo affetto e la tua vicinanza sono già arrivati anche a chilometri 
+                                                                di distanza e <b>non abbiamo bisogno di nient'altro!</b>
+
                                                             </p>
                                                             <p class="elementor-heading-title elementor-size-default" style="margin-top: 30px">
-                                                                Abbiamo già ricevuto e riceveremo il tuo affetto e la tua vicinanza anche a chilometri
-                                                                di distanza, <b>non abbiamo bisogno di nient'altro!</b>
-                                                            </p>
-                                                            <p class="elementor-heading-title elementor-size-default" style="margin-top: 30px">
-                                                                Tuttavia, se ci tieni particolarmente a farci un regalo avremmo il desiderio di sostenere
-                                                                concretamente le seguenti <b>attività che ci stanno a cuore </b>per quello che fanno e come lo fanno.
+                                                                Se vuoi renderci felici facendo qualcosa di più, avremmo il desiderio di sostenere 
+                                                                concretamente le seguenti <b>realtà che ci stanno a cuore.</b>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1751,10 +1851,19 @@
                                                                         in memoria di Romolo Dagioni.
                                                                     </p>
                                                                     <p style="margin-top: 20px !important;">
-                                                                        <strong style="display: block; margin-bottom: 4px; color: #333;">PAYPAL</strong>
+                                                                        <strong style="display: block; margin-bottom: 4px; color: #333;">IBAN</strong>
                                                                         <span style="font-family: monospace; font-size: min(17px, 4vw); background: #fff; padding: 6px 12px; border-radius: 6px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 100%; word-break: break-all;">
-                                                                            <a href="https://www.paypal.com/donate?token=66-ZLrdpm9Vjwbqf10OkCJjoxDCb022YunDSyjH7kmVEu7VR-SME911Mqdu6KLMxXuR4-vSUyy9HMz1i">DONA QUI</a>
+                                                                            IT51A0200803023000029467635
                                                                         </span>
+                                                                    </p>
+                                                                    <p><strong style="display: block; margin-top: 16px; color: #333;">Banca</strong>
+                                                                        <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">UNICREDIT S.p.A. c/c n. 000029467635</span>
+                                                                    </p>
+                                                                    <p><strong style="display: block; margin-top: 16px; color: #333;">Intestato a</strong>
+                                                                        <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">A.U.L.L. Associazione Umbra Leucemie e Linfomi</span>
+                                                                    </p>
+                                                                    <p><strong style="display: block; margin-top: 16px; color: #333;">Causale</strong>
+                                                                        <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">Per la Ricerca</span>
                                                                     </p>
                                                                 </div>
                                                            
@@ -1810,7 +1919,7 @@
                                                           
                                                                 <p>
                                                                     Dona alla <a href="https://www.facebook.com/share/1AnFojvnUw/">Cascina del Sorriso </a> 
-                                                                    per realizzare un centro di sostegno medico e spirituale per i bambini speciali e far risplendere un sorriso nei loro volti.
+                                                                    per realizzare un centro di sostegno medico e spirituale per i bambini speciali e far risplendere il loro sorriso.
                                                                 </p>
                                                                 <p>
                                                                     <strong style="display: block; margin-bottom: 4px; color: #333;">IBAN</strong>
@@ -1877,19 +1986,34 @@
                                                                    style="text-align: center; padding: 20px; font-size: 18px; line-height: 1.6; background-color: #f9f9f9; border-radius: 12px; max-width: 100%; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
                                                          
                                                                <p>
-                                                                   <a href="https://www.facebook.com/alberiinperiferia?rdid=a5TdMrbPvOKgihm7&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19Emwz85j9%2F#">
-                                                                    Alberi in Periferia 
-                                                                </a> ha l'obiettivo di riforestare contesti urbani periferici piantando al contempo partecipazione e socialità.<br />
-                                                                Se avremo modo, andremo a piantare gli alberi insieme!
+                                                                    Dona ad
+                                                                    <a href="https://www.facebook.com/alberiinperiferia?rdid=a5TdMrbPvOKgihm7&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19Emwz85j9%2F#">
+                                                                        Alberi in Periferia 
+                                                                    </a> 
+                                                                    per riforestare le periferie urbane nel centro Italia.<br />
+                                                                    Se avremo modo, andremo a piantare gli alberi insieme!
                                                                </p>
+                                                               
                                                                <p style="margin-top: 20px !important;">
-                                                                <strong style="display: block; margin-bottom: 4px; color: #333;">GO FUND ME</strong>
+                                                                <strong style="display: block; margin-bottom: 4px; color: #333;">IBAN</strong>
                                                                 <span style="font-family: monospace; font-size: min(17px, 4vw); background: #fff; padding: 6px 12px; border-radius: 6px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 100%; word-break: break-all;">
-                                                                    <a href="https://www.gofundme.com/f/alberi-in-periferia-portiamo-il-verde-in-citta?attribution_id=sl:4fd94afc-be61-415a-a622-04f150c2b796&lang=it_IT&ts=1751836018&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=native_options">DONA QUI</a>
+                                                                    IT76E0501803200000017235151
                                                                 </span>
                                                             </p>
                                                             
-                                                            <p><strong style="display: block; margin-top: 16px; color: #333;">Messaggio</strong>
+                                                            <p><strong style="display: block; margin-top: 16px; color: #333;">BANCA</strong>
+                                                                <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">
+                                                                    Banca Popolare Etica
+                                                                </span>
+                                                            </p>
+                                                            
+                                                            <p><strong style="display: block; margin-top: 16px; color: #333;">INTESTATO A</strong>
+                                                                <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">
+                                                                    Alberi in Periferia
+                                                                </span>
+                                                            </p>
+                                                            
+                                                            <p><strong style="display: block; margin-top: 16px; color: #333;">Causale</strong>
                                                                 <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">
                                                                     Matrimonio Sara e Luca 18 luglio
                                                                 </span>
@@ -1907,121 +2031,11 @@
                                                         data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <p class="elementor-heading-title elementor-size-default" style="margin-top: 30px">
-                                                                Non vediamo un dono più grande di unire le nostre forze per una missione comune che generi <b>valore
-                                                                per tutti!</b><br/>
-                                                            </p>
-                                                            <p class="elementor-heading-title elementor-size-default" style="margin-top: 30px">
-                                                                Se vuoi comunque farci un pensiero, sarà per noi prezioso e accolto con gratitudine.<br/>
+                                                                Non vediamo un dono più grande di unire le nostre forze per una missione
+                                                                comune che generi <b>valore per tutti</b>, perché da soli siamo una goccia, insieme un oceano! 
                                                             </p>
                                                         </div>
                                                     </div>
-
-
-                                                    <div style="margin-top: 30px !important;" class="elementor-element elementor-element-78ed633 ob-has-background-overlay elementor-widget elementor-widget-toggle"
-                                                        data-id="78ed633" data-element_type="widget"
-                                                        data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                                                        data-widget_type="toggle.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-toggle">
-                                                                <div class="elementor-toggle-item">
-                                                                    <div id="elementor-tab-title-1261"
-                                                                        style="text-align: center; margin: 0 auto; position: relative; display: flex; justify-content: center; align-items: center;"
-                                                                        class="elementor-tab-title" data-tab="1"
-                                                                        role="button"
-                                                                        aria-controls="elementor-tab-content-1261"
-                                                                        aria-expanded="false">
-                                                                        <span
-                                                                            class="elementor-toggle-icon elementor-toggle-icon-left"
-                                                                            aria-hidden="true"
-                                                                            style="position: absolute; left: 0;">
-                                                                            <span class="elementor-toggle-icon-closed">                                                                                
-                                                                                <img src="./assets/arrow-down.svg" alt="arrow-down">
-                                                                            </span>
-                                                                            <span class="elementor-toggle-icon-opened">
-                                                                                <img src="./assets/arrow-up.svg" alt="arrow-up">
-                                                                            </span>
-                                                                        </span>
-                                                                        <div class="elementor-element elementor-element-faab06f ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor"
-                                                                        data-id="faab06f" data-element_type="widget"
-                                                                        data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                                                                        data-widget_type="text-editor.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <a style="color: #5B5B5F; display: flex; align-items: center; justify-content: center; gap: 5px; width: 100%;" 
-                                                                                href="https://forms.gle/2bRS8QgMaL2LZZQA8">                                     
-                                                                                <p style="margin: 0; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; font-size: 16px; color: #597D84 !important;">
-                                                                                    VIAGGIO DI NOZZE
-                                                                                </p>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div> 
-                                                                </div>
-                                                                <div id="elementor-tab-content-1261"
-                                                                        class="elementor-tab-content elementor-clearfix"
-                                                                        data-tab="1" role="region"
-                                                                        aria-labelledby="elementor-tab-title-1261"
-                                                                        style="text-align: center; padding: 20px; font-size: 18px; line-height: 1.6; background-color: #f9f9f9; border-radius: 12px; max-width: 100%; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
-                                                                
-                                                                    <p>
-                                                                        <strong style="display: block; margin-bottom: 4px; color: #333;">IBAN</strong>
-                                                                        <span style="font-family: monospace; font-size: min(17px, 4vw); background: #fff; padding: 6px 12px; border-radius: 6px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 100%; word-break: break-all;">
-                                                                            IT36G36772223000EM001802879
-                                                                        </span>
-                                                                    </p>
-                                                                
-                                                                    <p><strong style="display: block; margin-top: 16px; color: #333;">Intestato a</strong>
-                                                                        <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">Luca Dagioni</span>
-                                                                    </p>
-                                                                
-                                                                    <p><strong style="display: block; margin-top: 16px; color: #333;">Causale</strong>
-                                                                        <span style="font-weight: normal; display: inline-block; max-width: 100%; overflow-wrap: break-word;">
-                                                                            Contributo Viaggio in Messico
-                                                                        </span>
-                                                                    </p>
-                                                                </div>
-                                                           
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <section hidden
-                                        class="elementor-section elementor-top-section elementor-element elementor-element-eb30587 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="eb30587" data-element_type="section"
-                                        data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ec713f9"
-                                                data-id="ec713f9" data-element_type="column"
-                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-4363c88 elementor-position-left elementor-vertical-align-middle ob-has-background-overlay elementor-widget elementor-widget-image-box"
-                                                        data-id="4363c88" data-element_type="widget"
-                                                        data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                                                        data-widget_type="image-box.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-image-box-wrapper">
-                                                                <figure class="elementor-image-box-img"><img
-                                                                        decoding="async" width="147" height="147"
-                                                                        src="https://rsvp-online.it/wp-content/uploads/2021/03/Page-1@2x.png"
-                                                                        class="attachment-full size-full wp-image-408"
-                                                                        alt=""
-                                                                        srcset="https://rsvp-online.it/wp-content/uploads/2021/03/Page-1@2x.png 147w, https://rsvp-online.it/wp-content/uploads/2021/03/Page-1@2x-100x100.png 100w"
-                                                                        sizes="(max-width: 147px) 100vw, 147px" />
-                                                                </figure>
-                                                                <div class="elementor-image-box-content">
-                                                                    <h3 class="elementor-image-box-title">Citazione</h3>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e4859a"
-                                                data-id="7e4859a" data-element_type="column"
-                                                data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                                <div class="elementor-widget-wrap">
                                                 </div>
                                             </div>
                                         </div>
@@ -2084,37 +2098,20 @@
                 </div>
             </div>
         </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-96efbdf elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="96efbdf" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;bottom&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;sticky_on&quot;:[&quot;widescreen&quot;,&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20c7bea"
-                    data-id="20c7bea" data-element_type="column"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                    <div hidden class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-6c24ae4 elementor-align-center elementor-mobile-align-center ob-has-background-overlay elementor-widget elementor-widget-button"
-                            data-id="6c24ae4" data-element_type="widget"
-                            data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}"
-                            data-widget_type="button.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="https://rsvp-online.it/blue-leaves/">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-icon">
-                                                <i aria-hidden="true" class="far fa-edit"></i> </span>
-                                            <span class="elementor-button-text">Scegli questo invito</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
+    </div>
+    <script>
+        function setHeroHeight() {
+          var section = document.getElementById('section-hero');
+          if (window.innerWidth <= 767) {
+            section.style.height = '420px';
+          } else {
+            section.style.height = '720px';
+          }
+        }
+        window.addEventListener('resize', setHeroHeight);
+        window.addEventListener('DOMContentLoaded', setHeroHeight);
+    </script>
     <script>
         const lazyloadRunObserver = () => {
             const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
